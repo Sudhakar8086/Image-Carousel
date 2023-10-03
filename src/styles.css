@@ -1,0 +1,64 @@
+.slider-container {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Distribute items evenly along the row */
+  }
+
+  
+/* Left (Previous) Arrow Style */
+.left-arrow {
+    background-color: #FF5733; /* Set the background color for the left arrow */
+    color: white; /* Set the text color */
+    padding: 10px 20px; /* Adjust the padding to control the height and width */
+    border-radius: 5px; /* Add rounded corners for a button-like appearance */
+  }
+  
+  /* Right (Next) Arrow Style */
+  .right-arrow {
+    background-color: #33FF57; /* Set the background color for the right arrow */
+    color: white; /* Set the text color */
+    padding: 10px 20px; /* Adjust the padding to control the height and width */
+    border-radius: 5px; /* Add rounded corners for a button-like appearance */
+  }
+
+
+
+.slide {
+    flex: 1; /* Grow to fill available space */
+    text-align: center; /* Center the image horizontally */
+    margin: 0 10px; /* Add some spacing between images and arrows */
+  }
+
+
+  .carousel-image {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto;
+    max-height: 300px; /* Increase the maximum height to make images larger */
+    width: auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center the text inside the heading */
+  }
+  
+  .heading {
+    margin: 20px 0; /* Add some spacing above and below the heading */
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f0f0f0; /* Set your desired background color here */
+  }
+  
+  body {
+    font-family: Arial, sans-serif; /* Set a default font-family if needed */
+  }
+  
+  #root {
+    height: 100%;
+  }
